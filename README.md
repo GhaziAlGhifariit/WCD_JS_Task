@@ -13,11 +13,11 @@ Program ini ditulis dalam JavaScript untuk melakukan beberapa perhitungan matema
 5.Mengambil inisial nama dalam huruf besar
 
 // 1. Menghitung luas persegi panjang
-let panjang = 5;
-let lebar = 3;
-let luas = panjang * lebar;
+    let panjang = 5;
+    let lebar = 3;
+    let luas = panjang * lebar;
 
-console.log("Luas Persegi Panjang:", luas);
+    console.log("Luas Persegi Panjang:", luas);
 
 // 2. Menghitung diameter, keliling, dan luas lingkaran
 function circleProperties(radius) {
@@ -39,11 +39,11 @@ function findThirdAngle(a, b) {
     return thirdAngle;
 }
 
-let a = 80;
-let b = 65;
-let thirdAngle = findThirdAngle(a, b);
+    let a = 80;
+    let b = 65;
+    let thirdAngle = findThirdAngle(a, b);
 
-console.log("Sudut Ketiga =", thirdAngle);
+    console.log("Sudut Ketiga =", thirdAngle);
 
 // 4. Menghitung selisih tanggal dalam hari
 function getDateDifference(date1, date2) {
@@ -53,11 +53,11 @@ function getDateDifference(date1, date2) {
     return difference / (1000 * 60 * 60 * 24);
 }
 
-let date1 = "2025-03-02";
-let date2 = "2025-03-07";
-let daysDifference = getDateDifference(date1, date2);
+    let date1 = "2025-03-02";
+    let date2 = "2025-03-07";
+    let daysDifference = getDateDifference(date1, date2);
 
-console.log("Selisih Hari =", daysDifference);
+    console.log("Selisih Hari =", daysDifference);
 
 // 5. Mengambil inisial nama dalam huruf besar
 function getInitials(name) {
@@ -65,7 +65,7 @@ function getInitials(name) {
     return initials;
 }
 
-let name = "Ghazi Al Ghifari";
-let initials = getInitials(name);
+    let name = "Ghazi Al Ghifari";
+    let initials = getInitials(name);
 
-console.log("Inisial Nama =", initials);
+    console.log("Inisial Nama =", initials);
