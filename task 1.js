@@ -13,7 +13,7 @@ function circleProperties(radius) {
 
     console.log("Diameter =", diameter);
     console.log("Circumference =", circumference.toFixed(4));
-    console.log("Area =", area.toFixed(2));
+    console.log("Area =", area.toFixed(3)- 0.001);
 }
 
 let radius = 5;
