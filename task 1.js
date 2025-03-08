@@ -39,12 +39,12 @@ console.log("Third Angle =", thirdAngle); // Output: 35
     return difference / (1000 * 60 * 60 * 24);
 }
 
-let date1 = "2025-03-02";
-let date2 = "2025-03-07";
+let date1 = "2024-03-19";
+let date2 = "2024-03-21";
 
 let daysDifference = getDateDifference(date1, date2);
 
-console.log("Difference in days =", daysDifference); // Output: 5
+console.log("Difference in days =", daysDifference); // Output: 2
 
 // 5.Write a code to print your name initial in Uupercase
 function getInitials(name) {
