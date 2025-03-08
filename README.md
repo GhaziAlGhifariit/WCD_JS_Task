@@ -60,11 +60,11 @@ function getDateDifference(date1, date2) {
     return difference / (1000 * 60 * 60 * 24);
     }
 
-    let date1 = "2025-03-02";
-    let date2 = "2025-03-07";
+    let date1 = "2024-03-19";
+    let date2 = "2024-03-21";
     let daysDifference = getDateDifference(date1, date2);
 
-    console.log("Selisih Hari =", daysDifference);//output : 5
+    console.log("Selisih Hari =", daysDifference);//output : 2
 ```
 ## Mengambil inisial nama dalam huruf besar
 ```javascript
