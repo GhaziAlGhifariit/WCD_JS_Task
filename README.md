@@ -11,7 +11,8 @@ Program ini ditulis dalam JavaScript untuk melakukan beberapa perhitungan matema
 4.Menghitung selisih tanggal dalam hari
 
 5.Mengambil inisial nama dalam huruf besar
-```
+## Menghitung luas persegi panjang
+```javascript
 // 1. Menghitung luas persegi panjang
     let panjang = 5;
     let lebar = 3;
@@ -19,21 +20,24 @@ Program ini ditulis dalam JavaScript untuk melakukan beberapa perhitungan matema
 
     console.log("Luas Persegi Panjang:", luas);// output:15
 ```
-
+## Menghitung diameter, keliling, dan luas lingkaran
+```javascript
 // 2. Menghitung diameter, keliling, dan luas lingkaran
-function circleProperties(radius) {
+    function circleProperties(radius) {
     let diameter = 2 * radius;
     let circumference = 2 * Math.PI * radius;
     let area = Math.PI * Math.pow(radius, 2);
 
-    console.log("Diameter =", diameter);
-    console.log("Keliling =", circumference.toFixed(4));
-    console.log("Luas =", area.toFixed(3));
+    console.log("Diameter =", diameter);//output :5
+    console.log("Keliling =", circumference.toFixed(4)); //output : 31.4159,
+    console.log("Luas =", area.toFixed(3)); //output : 78.539
     }
 
     let radius = 5;
-    circleProperties(radius);
-
+    circleProperties(radius); //
+```
+## Menentukan sudut ketiga segitiga jika dua sudut diketahui
+```javascript
 // 3. Menentukan sudut ketiga segitiga jika dua sudut diketahui
 function findThirdAngle(a, b) {
     let thirdAngle = 180 - (a + b);
@@ -44,8 +48,10 @@ function findThirdAngle(a, b) {
     let b = 65;
     let thirdAngle = findThirdAngle(a, b);
 
-    console.log("Sudut Ketiga =", thirdAngle);
-
+    console.log("Sudut Ketiga =", thirdAngle); //output : 35
+```
+##  Menghitung selisih tanggal dalam hari
+```javascript
 // 4. Menghitung selisih tanggal dalam hari
 function getDateDifference(date1, date2) {
     let d1 = new Date(date1);
@@ -58,8 +64,10 @@ function getDateDifference(date1, date2) {
     let date2 = "2025-03-07";
     let daysDifference = getDateDifference(date1, date2);
 
-    console.log("Selisih Hari =", daysDifference);
-
+    console.log("Selisih Hari =", daysDifference);//output : 5
+```
+## Mengambil inisial nama dalam huruf besar
+```javascript
 // 5. Mengambil inisial nama dalam huruf besar
     function getInitials(name) {
     let initials = name.split(' ').map(word => word[0].toUpperCase()).join('');
@@ -69,4 +77,5 @@ function getDateDifference(date1, date2) {
     let name = "Ghazi Al Ghifari";
     let initials = getInitials(name);
 
-    console.log("Inisial Nama =", initials);
+    console.log("Inisial Nama =", initials); // output : GAG
+```
