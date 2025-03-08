@@ -44,7 +44,7 @@ let date2 = "2025-03-07";
 
 let daysDifference = getDateDifference(date1, date2);
 
-console.log("Difference in days =", daysDifference); // Output: 2
+console.log("Difference in days =", daysDifference); // Output: 5
 
 // 5.Write a code to print your name initial in Uupercase
 function getInitials(name) {
@@ -55,4 +55,4 @@ function getInitials(name) {
 let name = "Ghazi Al Ghifari";
 let initials = getInitials(name);
 
-console.log(initials); // Output: JD
+console.log(initials); // Output: GAG
