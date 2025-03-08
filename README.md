@@ -11,13 +11,14 @@ Program ini ditulis dalam JavaScript untuk melakukan beberapa perhitungan matema
 4.Menghitung selisih tanggal dalam hari
 
 5.Mengambil inisial nama dalam huruf besar
-
+```
 // 1. Menghitung luas persegi panjang
     let panjang = 5;
     let lebar = 3;
     let luas = panjang * lebar;
 
-    console.log("Luas Persegi Panjang:", luas);
+    console.log("Luas Persegi Panjang:", luas);// output:15
+```
 
 // 2. Menghitung diameter, keliling, dan luas lingkaran
 function circleProperties(radius) {
