@@ -28,10 +28,10 @@ function circleProperties(radius) {
     console.log("Diameter =", diameter);
     console.log("Keliling =", circumference.toFixed(4));
     console.log("Luas =", area.toFixed(3));
-}
+    }
 
-let radius = 5;
-circleProperties(radius);
+    let radius = 5;
+    circleProperties(radius);
 
 // 3. Menentukan sudut ketiga segitiga jika dua sudut diketahui
 function findThirdAngle(a, b) {
@@ -51,7 +51,7 @@ function getDateDifference(date1, date2) {
     let d2 = new Date(date2);
     let difference = Math.abs(d2 - d1);
     return difference / (1000 * 60 * 60 * 24);
-}
+    }
 
     let date1 = "2025-03-02";
     let date2 = "2025-03-07";
@@ -60,11 +60,11 @@ function getDateDifference(date1, date2) {
     console.log("Selisih Hari =", daysDifference);
 
 // 5. Mengambil inisial nama dalam huruf besar
-function getInitials(name) {
+    function getInitials(name) {
     let initials = name.split(' ').map(word => word[0].toUpperCase()).join('');
     return initials;
-}
-
+    }
+    
     let name = "Ghazi Al Ghifari";
     let initials = getInitials(name);
 
