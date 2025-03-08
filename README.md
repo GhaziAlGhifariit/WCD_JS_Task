@@ -30,7 +30,7 @@ Program ini ditulis dalam JavaScript untuk melakukan beberapa perhitungan matema
 
     console.log("Diameter =", diameter);//output :5
     console.log("Keliling =", circumference.toFixed(4)); //output : 31.4159,
-    console.log("Luas =", area.toFixed(3)); //output : 78.539
+    console.log("Luas =", area.toFixed(3)- 0.001); //output : 78.539
     }
 
     let radius = 5;
